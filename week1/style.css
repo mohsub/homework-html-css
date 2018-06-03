@@ -10,7 +10,10 @@ body{
     list-style: none;
     text-align:right;
     padding:20px 0 20px 0;
-    
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
     
     
 }
@@ -179,4 +182,77 @@ h4{
 }
 .container h3{
     width:250px;
+}
+/*contact form
+*/
+.contact_me{
+    width:280px;
+}
+.contact_form{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px;
+    text-transform: uppercase;
+    text-align:center;
+    line-height: 1.5em;
+    display:grid;
+    grid-template-columns:1fr 2fr;
+    width:75%;
+    margin:0 auto;
+}
+.contact_form * {
+    box-sizing: border-box;
+}
+.info{
+    background-color:rgb(231, 220, 55);
+    padding:30px 0;
+}
+.info h5{
+    font-size:30px;
+    text-align:center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.info h5 span{
+    color:#fff;
+    padding-left:10px;
+}
+.info ul{
+    list-style: none;
+}
+.info ul li i{
+    padding-right: 5px;
+    
+}
+.contact{
+    padding:30px 0;
+     
+    background-color:#fff;
+    
+}
+form{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap: 10px;
+    margin:0 20px;
+}
+.contact label{
+    display:block;
+    padding-bottom: 10px;
+}
+.contact input, .contact button, .contact textarea {
+    width:100%;
+    padding:1em;
+    
+}
+.contact textarea{
+    padding:2em;
+}
+.contact button{
+    background-color:rgb(231, 220, 55);
+}
+.contact p{
+    padding:10px 0;
+}
+.full{
+    grid-column:1/3;
 }
